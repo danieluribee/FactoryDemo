@@ -12,12 +12,11 @@ public class Main {
 
     public static void main(String[] args) {
         CurrencyFactory factory = new CurrencyFactory();
+        float amount = 0;
+        String currencyName = "";
+        Currency currentCurrency;
 
         while(true) {
-            float amount = 0;
-            String currencyName = "";
-            Currency currentCurrency;
-
             System.out.println("Insert the type of currency to perform the conversion (DOLLAR, EURO, YEN)");
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
             try {
