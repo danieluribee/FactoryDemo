@@ -1,8 +1,8 @@
-package main.java.com.nearsoft.factory.implementations;
+package com.nearsoft.implementations;
 
-import main.java.com.nearsoft.factory.interfaces.Currency;
+import com.nearsoft.interfaces.Currency;
 
-public class Euro implements Currency{
+public class Euro implements Currency {
 
 	@Override
 	public double convert(float amount) {

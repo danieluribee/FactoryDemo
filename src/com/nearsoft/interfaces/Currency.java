@@ -1,4 +1,4 @@
-package main.java.com.nearsoft.factory.interfaces;
+package com.nearsoft.interfaces;
 
 public interface Currency {
 	

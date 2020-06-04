@@ -1,4 +1,4 @@
-package main.java.com.nearsoft.factory.enums;
+package com.nearsoft.enums;
 
 public enum currencyType {
 	DOLLAR,

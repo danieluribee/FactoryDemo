@@ -1,10 +1,10 @@
-package main.java.com.nearsoft.factory.factories;
+package com.nearsoft.factories;
 
-import main.java.com.nearsoft.factory.enums.currencyType;
-import main.java.com.nearsoft.factory.implementations.Dolar;
-import main.java.com.nearsoft.factory.implementations.Euro;
-import main.java.com.nearsoft.factory.implementations.Yen;
-import main.java.com.nearsoft.factory.interfaces.Currency;
+import com.nearsoft.enums.currencyType;
+import com.nearsoft.implementations.Dollar;
+import com.nearsoft.implementations.Euro;
+import com.nearsoft.implementations.Yen;
+import com.nearsoft.interfaces.Currency;
 
 public class CurrencyFactory {
    
@@ -13,7 +13,7 @@ public class CurrencyFactory {
           return null;  
          }  
        if(currencyName.equalsIgnoreCase(currencyType.DOLLAR.toString())) {  
-              return new Dolar();  
+              return new Dollar();
             }   
         else if(currencyName.equalsIgnoreCase(currencyType.EURO.toString())){  
              return new Euro();  
