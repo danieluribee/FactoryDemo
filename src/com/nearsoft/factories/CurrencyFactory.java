@@ -10,17 +10,17 @@ public class CurrencyFactory {
    
     public Currency obtainCurrency(String currencyName){  
          if(currencyName == null){  
-          return null;  
+            return null;
          }  
        if(currencyName.equalsIgnoreCase(currencyType.DOLLAR.toString())) {  
               return new Dollar();
             }   
         else if(currencyName.equalsIgnoreCase(currencyType.EURO.toString())){  
              return new Euro();  
-         }   
+            }
        else if(currencyName.equalsIgnoreCase(currencyType.YEN.toString())) {  
              return new Yen();  
-       }  
+            }
     return null;  
     }  
 }
