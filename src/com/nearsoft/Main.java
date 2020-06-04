@@ -11,12 +11,12 @@ import com.nearsoft.interfaces.Currency;
 public class Main {
 
     public static void main(String[] args) {
+        CurrencyFactory factory = new CurrencyFactory();
+
         while(true) {
             float amount = 0;
             String currencyName = "";
             Currency currentCurrency;
-
-            CurrencyFactory factory = new CurrencyFactory();
 
             System.out.println("Insert the type of currency to perform the conversion (DOLLAR, EURO, YEN)");
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
